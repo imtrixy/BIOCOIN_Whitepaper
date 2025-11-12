@@ -401,6 +401,7 @@ Transaction {
     sender: str          # Sender address
     recipient: str       # Recipient address
     amount: float        # Amount in BIOCOIN
+    fee: float          # Transaction fee (optional, defaults to 0.0)
     signature: str       # ECDSA signature
     nonce: int          # Replay attack prevention
     timestamp: float     # Creation time
@@ -514,9 +515,15 @@ BIOCOIN enforces a hard cap of 21,000,000 coins:
 
 ### 9.5 Transaction Fees
 
-- **Currently**: 0 BIOCOIN (free transactions)
-- **Future**: Optional fees for priority processing
-- **Miner Choice**: Miners can prioritize fee-paying transactions
+- **Status**: ✅ Implemented (Bitcoin-style)
+- **Fee Model**: Optional fees (defaults to 0.0 BIOCOIN)
+- **Fee Collection**: All fees go to miners (fully decentralized)
+- **Fee Priority**: Miners prioritize transactions with higher fees
+- **Fee Structure**: User chooses fee amount (market-driven)
+- **Purpose**: 
+  - Prevents spam attacks
+  - Rewards miners after block rewards decrease
+  - Allows priority processing for urgent transactions
 
 ---
 
@@ -923,7 +930,7 @@ From the genesis DNA "IAMTRIXY" to the present, BIOCOIN represents a digital evo
 - **Initial Reward**: 50 BIOCOIN per block
 - **Halving Interval**: 210,000 blocks
 - **Block Time**: ~10 minutes
-- **Transaction Fees**: Currently 0 (optional in future)
+- **Transaction Fees**: ✅ Implemented (optional, Bitcoin-style, miners collect all fees)
 
 ---
 
