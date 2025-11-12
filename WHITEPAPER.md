@@ -929,41 +929,6 @@ From the genesis DNA "IAMTRIXY" to the present, BIOCOIN represents a digital evo
 
 ## Appendix B: Code Examples
 
-### B.1 DNA Mutation Example
-
-```python
-from blockchain.dna import DNAMutation
-
-# Get previous DNA
-previous_dna = "CCCAGCAC"
-
-# Mutate following biological rules
-mutated_dna, mutation_records = DNAMutation.mutate_biologically(
-    previous_dna,
-    num_mutations=1
-)
-
-# Result: "CCGAGCAC" (transition: C→G)
-# Mutation record tracks: position, type, rarity
-```
-
-### B.2 Mining Example
-
-```python
-from miner.miner import Miner
-
-# Create miner
-miner = Miner(
-    wallet_address="BIO2vXZ9rshC8yrZSfQRuZzd1AD6hzt",
-    node_url="http://localhost:5000",
-    use_parallel=True,
-    use_optimized=True
-)
-
-# Start mining
-miner.start_mining()
-```
-
 ### B.3 Transaction Example
 
 ```python
