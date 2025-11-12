@@ -14,6 +14,13 @@ Unauthorized reproduction, distribution, or modification is prohibited.
 **Author**: IAMTRIXY  
 **Founder**: IAMTRIXY - The Origin of Digital Evolution
 
+**Proof of Creation**:
+- **GitHub Repository**: https://github.com/imtrixy/BIOCOIN_Whitepaper
+- **Initial Commit**: 9a2e2f34a6fc486cb6113e908520673326953172
+- **Commit Date**: 2025-11-12 23:41:17 +0300
+- **Genesis DNA**: "IAMTRIXY" (embedded in blockchain)
+- **Original Creator**: IAMTRIXY
+
 ---
 
 ## Abstract
@@ -998,7 +1005,15 @@ This whitepaper and the BIOCOIN project are the intellectual property of IAMTRIX
 **Contact**:
 - **Founder**: IAMTRIXY
 - **Project**: BIOCOIN - The First Mutation-Based Blockchain
-- **Repository**: https://github.com/imtrixy/BIOCOIN
+- **Repository**: https://github.com/imtrixy/BIOCOIN (private, under development)
+- **Whitepaper Repository**: https://github.com/imtrixy/BIOCOIN_Whitepaper
+
+**Legal Protection**:
+- This document is copyrighted and protected under international copyright law
+- Any unauthorized use, reproduction, or distribution is strictly prohibited
+- Legal action will be taken against copyright infringement
+- Proof of creation is permanently recorded in Git history (commit 9a2e2f3)
+- Genesis block contains "IAMTRIXY" as permanent proof of origin
 
 ---
 
